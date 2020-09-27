@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">pr01-what-time-is-it-Saito25</string>
+    <string name="app_name">What Time Is It</string>
+    <string name="saludo">Hola</string>
+    <string name="fecha">fechaactual</string>
 </resources>
