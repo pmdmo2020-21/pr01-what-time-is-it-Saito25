@@ -15,7 +15,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TextView lblFecha = findViewById(R.id.lblfecha);
-        lblFecha.setText(getCurrentDate("re/MM/yyyy"));
+        TextView lblTime = findViewById(R.id.lbltime);
+        lblFecha.setText(getCurrentDate("dd/LL/yyyy"));
+        lblTime.setText(getCurrentDate("HH:mm"));
 
     }
 

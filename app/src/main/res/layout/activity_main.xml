@@ -22,4 +22,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/fecha" />
+
+    <TextView
+        android:id="@+id/lblsubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time" />
+
+    <TextView
+        android:id="@+id/lbltime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/horaactual" />
 </LinearLayout>
