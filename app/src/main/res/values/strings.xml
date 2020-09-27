@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">What Time Is It</string>
-    <string name="saludo">Hola</string>
+    <string name="saludo">Fecha</string>
     <string name="fecha">fechaactual</string>
     <string name="time">Hora</string>
     <string name="horaactual">horaactual</string>
