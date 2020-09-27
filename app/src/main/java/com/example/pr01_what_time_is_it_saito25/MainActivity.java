@@ -14,10 +14,19 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TextView lblFecha = findViewById(R.id.lblfecha);
-        TextView lblTime = findViewById(R.id.lbltime);
-        lblFecha.setText(getCurrentDate("dd/LL/yyyy"));
-        lblTime.setText(getCurrentDate("HH:mm"));
+
+        TextView[] lblsDateAndTime = new TextView[4];
+        lblsDateAndTime[0] = findViewById(R.id.lblfecha);
+        lblsDateAndTime[1] = findViewById(R.id.lbltime);
+        lblsDateAndTime[2] = findViewById(R.id.lbltitulo);
+        lblsDateAndTime[3] = findViewById(R.id.lblsubtitle);
+
+        lblsDateAndTime[0].setText(getCurrentDate("dd/LL/yyyy"));
+        lblsDateAndTime[1].setText(getCurrentDate("HH:mm"));
+
+        for(TextView textView : lblsDateAndTime) {
+            textView.setTextSize(50);
+        }
 
     }
 
